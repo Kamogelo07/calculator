@@ -1,0 +1,71 @@
+.contentDiv{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(182, 137, 162);
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+}
+
+#display-area{
+    text-align: right;
+    height: 70px;
+    line-height: 20px;
+    padding: 5px 8px;
+}
+
+#input-el{
+    text-align: center;
+    padding: 1px 8px;
+    font-size: 25px;
+}
+
+#text-area{
+    text-align: left;
+    height: 110px;
+    line-height: 20px;
+    padding: 5px 8px;
+    font-size: 25px;
+} 
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid#999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.button {
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#checkFactor{
+    border: 0.5px solid #999;
+    line-height: 20px;
+    padding: 7px 8px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(233, 120, 227);
+    color: white;
+}
+
+.button:hover, #checkFactor:hover{
+    background-color: #c796c9;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
